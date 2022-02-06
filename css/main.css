@@ -1,0 +1,278 @@
+ 
+ * {
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', Arial, sans-serif ;
+    font-weight: 400;
+    font-size: 16px;
+    line-height:24px;
+}
+.container{
+    max-width: 1160px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 30px;
+    padding-right: 30px;   
+
+}
+.site-header{
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.site-header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.site-logo{
+    text-decoration: none; 
+    display: flex;
+    align-items: center;
+}
+.site-logo-img{
+    border-radius: 50%;
+    margin-right: 16px;
+}
+.site-logo-text{
+    font-weight: 600;
+    font-size: 24px;
+    color: #222;
+}
+
+.site-logo-text:hover{
+    color: #de3e54;
+}
+
+.site-footer-text:active{
+    color: #fff;
+    opacity: 0.6;
+}
+
+.site-logo:active{
+    opacity: 0.6;
+}
+.sitenav-list{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.sitenav-item:not(:last-child ){
+    margin-right: 32px;
+
+}
+.sitenav-link{
+    text-decoration: none;
+    color: #222;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 2px;
+
+}
+.sitenav-link:hover{
+    color: #de3e54;
+}
+.sitenav-link:active{
+    opacity: 06;
+}
+.sitenav-footer-link{
+    color: #fff;
+
+}
+.sitenav-footer-link:hover{
+    color: #de3e54;
+}
+.sitenav-footer-link:active{
+    color: #fff;
+    opacity: 0.6;
+}
+
+.main-link{
+    background: #de3e54;
+    padding: 12px 24px;
+    font-family: 'Open Sans Condensed', 'Arial', sans-serif;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 15px;
+    color:#fff;
+    text-decoration: none;
+    border-radius: 8px;
+    border: 2px solid #de3e54;
+    
+}
+.main-link:hover{
+    background-color: #fff;
+    color: #de3e54;
+}
+.main-link:active{
+    background-color:#de3e54;
+    color: #fff;
+    opacity: 0.8;
+}
+        /* MAIN*/
+        
+.hero{
+    background-color: #0eb4c1 ;
+    color: #fff;
+}
+.hero-container{
+    display: flex;
+    justify-content: space-between;
+}
+.hero-qb{
+    background: #de3e54;
+    padding: 12px 24px;
+    font-family: 'Open Sans Condensed', 'Arial', sans-serif;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 15px;
+    color:#fff;
+    text-decoration: none;
+    border-radius: 8px;
+    border: 2px solid #de3e54;
+}
+.hero-qb:hover{
+    background: rgba(222, 46, 84, 0.8);
+}
+.hero-qb:active{
+    background: rgba(222, 46, 84, 0.6);
+}
+.hero-img{
+    justify-self:flex-end ;
+}
+.hero-content{
+    height: 293px;
+    width: 500px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+
+}
+.hero-title{
+    font-family: 'Open Sans Condensed', 'Arial', sans-serif;
+    font-weight: 700;
+    margin-top: 0;
+    line-height: 1.2;
+    margin-bottom: 16px;
+}
+.hero-text{
+    font-size: 18px;
+    font-weight: 400;
+    width: 440px;
+    line-height: 1.5;
+    margin-bottom: 36px;
+}
+
+
+      /* SITE FOOTER*/
+.site-footer{
+    background-color: #222;
+}
+.site-footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+.site-footer-text{
+    color: #fff;
+}
+.sitenav-list-footer .sitenav-link{
+    color: #fff;
+}
+
+
+.services-container{
+   margin-left: 258px;
+   margin-bottom: 120px;
+   margin-top: 120px;
+}
+.services-title{
+    font-size: 36px;
+    margin-left: 400px;
+    margin-right: 653px;
+    line-height: 43.2px;
+}
+.services-list:not(:last-child ){
+    display: flex;
+    margin-bottom: 80px;
+}
+.frame{
+    margin-left: 64px;
+    width: 600px;
+
+}
+
+.services-hijoma-title.services-terapiya-title{
+    display: flex;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    color: #222; 
+    width: 67px;
+    height: 29px;    
+}
+.services-hijoma-text.services-terapiya-text{
+    font-family: 'Open Sans';
+    font-size: 16px;
+    line-height: 150%;
+    width: 600px;
+    height: 96px;
+    margin-top: 53px;
+    
+}
+.services-botton{
+    display: flex;
+    justify-content: center;  
+}
+
+
+/* Hero-botton */
+
+.hero-botton{
+    background-color: #0eb4c1 ;
+    color: #fff;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    display: flex;
+}
+
+.hero-botton-text {
+    /* font-weight: bold; */
+    font-size: 36px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    line-height: 120%;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 52px;
+}
+.box{
+    text-align: center;
+    
+}
+.hero-botton-tag {
+    background: #0EB4C1;;
+    padding: 12px 24px;
+    font-family: 'Open Sans Condensed', 'Arial', sans-serif;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 15px;
+    line-height: 18px;
+    color:#fff;
+    text-decoration: none;
+    border-radius: 8px;
+    border: 2px solid #fff;
+    margin-right: 60px;
+    
+}
+.hero-botton-tag:hover{
+    background-color: #de3e54;
+    color: #FFF;
+}
+.hero-botton-tag:active{
+    background-color:#de3e54;
+    color: #FFF;
+    opacity: 0.8;
+}
